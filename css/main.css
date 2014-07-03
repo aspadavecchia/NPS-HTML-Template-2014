@@ -32,6 +32,10 @@ body {
 	background-color: #000;
 	color: #ffcc00;
 }
+img {
+    min-width: 100%;
+    height: auto;      
+}
 .jumbotron {
 	padding: 0px;
 }
@@ -86,24 +90,14 @@ body {
 /* ==========================================================================
    Jumbotron Carousel CSS
    ========================================================================== */
-
-#myCarousel .nav a small {
-    color: #fff;
-    display: block;
-}
-#myCarousel .nav {
-    background: #0f3b63;
-}
 .nav-justified > li > a {
     border-radius: 0px;
     border-right: 1px solid #fff;
-    color: #fff;
     padding: 20px 15px;
 }
 .nav-justified > li > a:hover {
+	background-color: #fefefe;
     border-radius: 0px;
-    border-bottom: 1px solid #000;
-    border-top: 1px solid #000;
     color: #8d0e13;
 }
 
