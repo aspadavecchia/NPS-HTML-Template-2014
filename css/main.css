@@ -1,0 +1,87 @@
+@charset "UTF-8";
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+a {
+	color: #0f3b63;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+}
+a:hover {
+	color: #8d0e13;
+	text-decoration: none;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+}
+body {
+	padding-top: 50px;
+	padding-bottom: 20px;
+}
+.jumbotron {
+	padding: 0px;
+}
+#mainmenu {
+	background-color: #8d0e13;
+}
+.navbar {
+	border-radius: 0px;
+	background-color: #0f3b63;
+	border: 0px;
+}
+.navbar-default .navbar-brand {
+	border-left: 6px solid #ffcc00;
+	color: #fff;
+}
+.navbar-default .navbar-nav > li > a {
+	background-color: #8d0e13;
+	color: #fff;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 12px;
+	font-weight: 700;
+}
+.navbar-default .navbar-nav > li > a:hover {
+	background-color: #efefef;
+	color: #8d0e13;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 12px;
+	font-weight: 700;
+}
+.navbar-inverse .navbar-brand {
+	color: #fff;
+	margin-left: 6px;
+}
+.navbar-inverse .navbar-nav > li > a {
+	color: #fff;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 12px;
+	font-weight: 700;
+}
+.navbar-inverse .navbar-nav > li > a:hover {
+	background-color: #efefef;
+	color: #8d0e13;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 12px;
+	font-weight: 700;
+}
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
