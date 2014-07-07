@@ -14,8 +14,13 @@ a:hover {
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 700;
 }
+address {
+	margin-bottom: 0px;
+}
 .alert {
 	background-color: #ffcc00;
+	border: 0px;
+	border-radius: 0px;
 	color: #000;
 	margin-bottom: 0px;
 }
@@ -123,6 +128,14 @@ img {
 	font-size: 12px;
 	font-weight: 700;
 }
+.npsheader h1{
+	background-color: #0f3b63;
+	color: #fff;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	margin: 0px;
+	padding: 5px 15px;
+}
 
 /* ==========================================================================
    Carousel CSS
@@ -141,12 +154,14 @@ img {
 	background-color: #8d0e13;
 }
 .carousel-caption {
-	background-color: rgba(255,243,236, 0.6);
+	background-color: rgba(255,255,255, 0.7);
 	color: #000;
 	left: 25px;
 	padding: 20px;
 	position: absolute;
+	right: 800px;
 	text-align: left;
+	text-shadow: none;
 	top: 25px;
 }
 
@@ -180,6 +195,7 @@ img {
     -moz-border-radius: 0px;
     border-radius: 0px;
 }
+
 /* ==========================================================================
    Media Queries
    ========================================================================== */
