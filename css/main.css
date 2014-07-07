@@ -18,17 +18,21 @@ body {
 	padding-top: 50px;
 	padding-bottom: 0px;
 }
+.btn-group, .btn-sm, .btn-group-sm > .btn {
+	margin: 5px 0px 0px 15px;
+}
 .dropdown-menu {
 	background-color: #8d0e13;
 	border: 0px;
 	border-radius: 0px;
+	box-shadow: none;
 	color: #fff;
 	margin: 30px 0px 0px 15px;
 }
 .dropdown-menu li a {
 	color: #fff;
 }
-.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus, a:active {
+.dropdown-menu > li > a:hover, a:focus, a:active {
 	background-color: #000;
 	color: #ffcc00;
 }
@@ -64,8 +68,11 @@ img {
 	border: 0px;
 	margin-bottom: 0px;
 }
-.navbar-default .navbar-brand {
+.navbar-default {
+	background-color: #8d0e13;
 	border-left: 6px solid #ffcc00;
+}
+.navbar-default .navbar-brand {
 	color: #fff;
 }
 .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
@@ -104,7 +111,7 @@ img {
 }
 
 /* ==========================================================================
-   Jumbotron Carousel CSS
+   Carousel CSS
    ========================================================================== */
 .nav-justified > li > a {
     border-radius: 0px;
@@ -127,7 +134,7 @@ img {
     top: 0;
     left: 100%;
     margin-top: -6px;
-    margin-left: -1px;
+    margin-left: 0px;
     -webkit-border-radius: 0px;
     -moz-border-radius: 0px;
     border-radius: 0px;
@@ -147,7 +154,16 @@ img {
     -moz-border-radius: 0px;
     border-radius: 0px;
 }
-
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+@media (min-width: 320px) and (max-width: 768px) {
+	.glyphiconheader {
+		font-size: 18px;
+		margin-top: 15px;
+		margin-right: 5px;
+	}
+}
 
 
 
