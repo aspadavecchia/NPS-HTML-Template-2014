@@ -14,6 +14,14 @@ a:hover {
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 700;
 }
+.alert {
+	background-color: #ffcc00;
+	color: #000;
+	margin-bottom: 0px;
+}
+.alert .glyphicon {
+	font-size: 45px;
+}
 body {
 	padding-top: 50px;
 	padding-bottom: 0px;
@@ -58,6 +66,12 @@ img {
 }
 .jumbotron {
 	padding: 0px;
+}
+.jumbotron, h1, h2, h3, h4, h5, h6 {
+	color: #000;
+}
+.jumbotron p {
+	font-size: 16px;
 }
 #mainmenu {
 	background-color: #8d0e13;
@@ -123,6 +137,18 @@ img {
     border-radius: 0px;
     color: #8d0e13;
 }
+.nav-pills {
+	background-color: #8d0e13;
+}
+.carousel-caption {
+	background-color: rgba(255,243,236, 0.6);
+	color: #000;
+	left: 25px;
+	padding: 20px;
+	position: absolute;
+	text-align: left;
+	top: 25px;
+}
 
 /* ==========================================================================
    Multi-Level Dropdown
@@ -162,6 +188,9 @@ img {
 		font-size: 18px;
 		margin-top: 15px;
 		margin-right: 5px;
+	}
+	.jumbotron p {
+		font-size: 12px;
 	}
 }
 
