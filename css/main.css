@@ -61,6 +61,9 @@ body {
 .footer, h6, a {
 	color: #fff;
 }
+#footerseal {
+	max-height: 125px;
+}
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 700;
@@ -71,6 +74,7 @@ img {
 }
 .jumbotron {
 	padding: 0px;
+	margin-bottom: 10px;
 }
 .jumbotron, h1, h2, h3, h4, h5, h6 {
 	color: #000;
@@ -128,6 +132,13 @@ img {
 	font-size: 12px;
 	font-weight: 700;
 }
+.navbar-right .dropdown-menu {
+	left: -15px;
+	right: auto;
+}
+.npsheader {
+	background-color: #0f3b63;
+}
 .npsheader h1{
 	background-color: #0f3b63;
 	color: #fff;
@@ -135,6 +146,12 @@ img {
 	font-weight: 700;
 	margin: 0px;
 	padding: 5px 15px;
+}
+.npsheader .row {
+	margin-right: 0px;
+}
+.ul .dropdown-menu .translate > a:active{
+	margin: 0px;
 }
 
 /* ==========================================================================
@@ -145,9 +162,15 @@ img {
     border-right: 1px solid #fff;
     padding: 20px 15px;
 }
+#last{
+    border-radius: 0px;
+    border-right: 0px;
+    padding: 20px 15px;
+}
 .nav-justified > li > a:hover {
 	background-color: #fefefe;
     border-radius: 0px;
+    border-bottom: 1px solid #8d0e13;
     color: #8d0e13;
 }
 .nav-pills {
@@ -207,6 +230,12 @@ img {
 	}
 	.jumbotron p {
 		font-size: 12px;
+	}
+	.nav-justified > li > a {
+	    border-radius: 0px;
+    	border-right: 0px solid #fff;
+  	  	border-top: 1px solid #fff;
+    	padding: 20px 15px;
 	}
 }
 
